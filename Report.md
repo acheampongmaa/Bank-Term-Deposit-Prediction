@@ -66,6 +66,7 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
 **F2-Score:** Weighted measure that emphasizes recall over precision.
 
 |Model|	Accuracy |	Precision	|Recall |	F1_score|	F2_score|
+|--- | ---|
 |Logistic Regression	|0.844199|	0.393035	|0.806122|	0.528428|	0.666105|
 |Support Vector Machine	|0.851934	|0.391566|	0.663265|	0.492424|	0.582437|
 |Random Forest|	0.891713	|0.500000	|0.418367	|0.455556	|0.432489|
@@ -80,13 +81,13 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
 Logistic Regression will be the best choice since the primary goal is to maximize recall, ensuring one captures as many potential subscribers as possible.
 
 2. After performing hyperparmeter tuning on the Logistic Regression model, the result was same as the initial results for the Recall which was: 80.6%. \
-This can be because:\
-1. The model might be overfitting or underfitting the training data, which can result in poor recall scores.\
-2. The hyperparameter tuning process might not have explored a sufficient range of hyperparameters to improve the recall score. 
+This can be because:
+-- The model might be overfitting or underfitting the training data, which can result in poor recall scores.\
+-- The hyperparameter tuning process might not have explored a sufficient range of hyperparameters to improve the recall score. 
 
 ## Conclusion
 
-This analysis aimed to build a predictive model that determines the likelihood of a client subscribing to a term deposit based on the features provided in the dataset. The key findings and takeaways from this analysis are:\
+This analysis aimed to build a predictive model that determines the likelihood of a client subscribing to a term deposit based on the features provided in the dataset. The key findings and takeaways from this analysis are:
 
 1. The dataset exhibited class imbalance, with a significant majority of clients not subscribing to term deposits. To address this, the SMOTE technique was used to oversample the minority class.
 2. Three machine learning models (Logistic Regression, Support Vector Machine, and Random Forest) were trained and evaluated on the dataset. The results showed that Logistic Regression performed best in terms of recall, making it the most suitable model for this task.
