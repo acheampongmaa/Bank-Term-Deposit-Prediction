@@ -45,7 +45,7 @@ Create new features to capture relevant information
 **Previous:** Outliers are all values greater than 0, indicating prior contacts.
 
 2. Bar chart was used to visualize the target feature and it was found there was imbalance. \
-The 'No' was 3193 and the 'Yes' was 423. \
+The 'No' was 3193 and the 'Yes' was 423. 
 
 The SMOTE (Synthetic Minority Over-sampling Technique) method which works by creating synthetic samples of the minority \ class was used. This method was chosen because:\
 **Reduces overfitting:** By increasing the number of instances in the minority class, SMOTE helps reduce overfitting.\
@@ -66,7 +66,7 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
 **F2-Score:** Weighted measure that emphasizes recall over precision.
 
 |Model|	Accuracy |	Precision	|Recall |	F1_score|	F2_score|
-|--- | ---|
+|------------------ | -----|-----|-----|-----|-----|
 |Logistic Regression	|0.844199|	0.393035	|0.806122|	0.528428|	0.666105|
 |Support Vector Machine	|0.851934	|0.391566|	0.663265|	0.492424|	0.582437|
 |Random Forest|	0.891713	|0.500000	|0.418367	|0.455556	|0.432489|
