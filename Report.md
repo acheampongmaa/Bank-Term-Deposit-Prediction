@@ -58,11 +58,11 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
  Interpret the results, discuss any limitations, and provide recommendations for future work.
 1. Performance of the algorithms used to train the machine learning model
 
-**Key Metrics Overview:**
-**Accuracy:** Proportion of correctly classified samples over all samples.
-**Precision:** Of the positive predictions made, how many are actually positive? High precision means fewer false positives.
-**Recall (Sensitivity):** Of all actual positives, how many were correctly identified? High recall means fewer false negatives.
-**F1-Score:** Harmonic mean of precision and recall, giving equal importance to both.
+**Key Metrics Overview:** \
+**Accuracy:** Proportion of correctly classified samples over all samples.\
+**Precision:** Of the positive predictions made, how many are actually positive? High precision means fewer false positives.\
+**Recall (Sensitivity):** Of all actual positives, how many were correctly identified? High recall means fewer false negatives.\
+**F1-Score:** Harmonic mean of precision and recall, giving equal importance to both.\
 **F2-Score:** Weighted measure that emphasizes recall over precision.
 
 |Model|	Accuracy |	Precision	|Recall |	F1_score|	F2_score|
@@ -71,7 +71,7 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
 |Support Vector Machine	|0.851934	|0.391566|	0.663265|	0.492424|	0.582437|
 |Random Forest|	0.891713	|0.500000	|0.418367	|0.455556	|0.432489|
 
-**Observations:**
+**Observations:** \
 
 **Logistic Regression:** Performs well in recall (80.6%), meaning it identifies a large portion of actual subscribers. However, it suffers from a low precision (39.3%), meaning many "no" predictions are mistakenly labeled "yes."\
 **SVM:** Offers a slightly better accuracy (85.2%) but trades recall (66.3%) for precision (39.2%). It is a more balanced approach but less effective than Logistic Regression at identifying potential subscribers.\
