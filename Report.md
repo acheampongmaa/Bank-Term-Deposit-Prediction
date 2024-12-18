@@ -72,6 +72,7 @@ The SMOTE (Synthetic Minority Over-sampling Technique) method which works by cre
 |Random Forest|	0.891713	|0.500000	|0.418367	|0.455556	|0.432489|
 
 **Observations:**
+
 **Logistic Regression:** Performs well in recall (80.6%), meaning it identifies a large portion of actual subscribers. However, it suffers from a low precision (39.3%), meaning many "no" predictions are mistakenly labeled "yes."\
 **SVM:** Offers a slightly better accuracy (85.2%) but trades recall (66.3%) for precision (39.2%). It is a more balanced approach but less effective than Logistic Regression at identifying potential subscribers.\
 **Random Forest:** Has the best accuracy (89.2%) and highest precision (50%), making it great for minimizing false positives. However, it struggles with recall (41.8%), meaning it misses many potential subscribers.
@@ -82,6 +83,7 @@ Logistic Regression will be the best choice since the primary goal is to maximiz
 
 2. After performing hyperparmeter tuning on the Logistic Regression model, the result was same as the initial results for the Recall which was: 80.6%. \
 This can be because:
+
 -- The model might be overfitting or underfitting the training data, which can result in poor recall scores.\
 -- The hyperparameter tuning process might not have explored a sufficient range of hyperparameters to improve the recall score. 
 
